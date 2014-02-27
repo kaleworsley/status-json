@@ -1119,6 +1119,7 @@ printf("\t\t\t \"service_notes_url\":\"%s\", \n", service_notes_url);
 printf("\t\t\t \"service_action_url\":\"%s\", \n", service_action_url);
 printf("\t\t\t \"service_icon_image\":\"%s\", \n", service_icon_image);
 printf("\t\t\t \"service_state_duration\":\"%s\", \n", service_state_duration);
+printf("\t\t\t \"service_last_check\":\"%s\", \n", service_last_check);
 printf("\t\t\t \"service_current_attempt\":%d, \n", service_current_attempt);
 printf("\t\t\t \"service_max_attempts\":%d, \n", service_max_attempts);
 printf("\t\t\t \"service_plugin_output\":\"%s\" \n", service_plugin_output);
